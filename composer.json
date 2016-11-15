@@ -1,0 +1,24 @@
+{
+    "name":        "jumpgate/menu",
+    "description": "A simple menu system.",
+    "license":     "MIT",
+    "authors":     [
+        {
+            "name":  "Riddles",
+            "email": "riddles@dev-toolbox.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": ">=4.0"
+    },
+    "require-dev": {
+      "phpspec/phpspec": "~2.1",
+      "henrikbjorn/phpspec-code-coverage": "~0.2"
+    },
+    "autoload":    {
+        "psr-4":    {
+            "JumpGate\\Menu\\": "src/JumpGate/Menu"
+        }
+    },
+    "minimum-stability": "dev"
+}
